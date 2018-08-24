@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  postgres:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=luigi
+      - POSTGRES_PASSWORD=luigi
+      - POSTGRES_DB=luigi
+
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
