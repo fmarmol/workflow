@@ -34,7 +34,7 @@ For example to launch the whole process from download videos to insert in mongo:
 PYTHONPATH=. luigi --module tasks.tasks SaveAllVideoInMongo --workers 3
 ```
 
-**You can specify the number of workers running in parallele (3 should be enough for small computer's configurations)**
+**You can specify the number of workers running in parallel (3 should be enough for small computer's configurations)**
 
 ## Monitoring
 
